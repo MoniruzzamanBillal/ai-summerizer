@@ -9,10 +9,6 @@ function App() {
 
   return (
     <>
-      <div className="con">
-        <h1 className=" black_btn p-6 "> this is heading </h1>
-      </div>
-
       <Hero />
       <Demo />
     </>
