@@ -9,7 +9,7 @@ const Hero = () => {
 
       <nav>
         <div className="navContainer  ">
-          <div className="navWrapper  w-[90%] m-auto pt-2 flex justify-between items-center self-center mb-12 ">
+          <div className="navWrapper w-[95%] sm:w-[90%] m-auto pt-2 flex justify-between items-center self-center mb-12 ">
             {/* left side of nav starts  */}
             <div className="navLeftContainer ">
               {/*  */}
@@ -45,8 +45,8 @@ const Hero = () => {
       {/*  */}
 
       {/* hero container starts  */}
-      <div className="heroContainer  mb-14 ">
-        <div className="heroWrapper  w-[95%] sm:w-[90%] m-auto  ">
+      <div className="heroContainer mb-6 sm:mb-9 md:mb-14 ">
+        <div className="heroWrapper  w-[96%] sm:w-[90%] m-auto  ">
           {/*  */}
           <div className="heroHeadingTop  w-full sm:w-[86%] lg:w-[80%] m-auto text-3xl sm:text-4xl md:text-5xl text-center font-bold mb-1 sm:mb-2 ">
             <h1>Summerize Articles with</h1>
