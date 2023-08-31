@@ -97,7 +97,7 @@ const Demo = () => {
                   onClick={() => setArticle(ele)}
                 >
                   {/*  */}
-                  <div className="cardLeft  w-[14%] sm:w-[9%] md:w-[7%] lg:w-[5%]  ">
+                  <div className="cardLeft  w-[9%] md:w-[7%] lg:w-[5%]  ">
                     <div className="cardLeftIMG w-[1.7rem] sm:w-[2rem] p-1 m-auto rounded-full bg-gray-200 ">
                       <img
                         src={copy}
@@ -109,7 +109,7 @@ const Demo = () => {
                   {/*  */}
 
                   {/*  */}
-                  <div className="cardRight  w-[85%] sm:w-[90%] md:w-[92%] lg:w-[94%] pl-1 text-blue-700 font-semibold ">
+                  <div className="cardRight  w-[90%] md:w-[92%] lg:w-[94%] pl-1 text-blue-700 font-semibold text-xs sm:text-sm md:text-base ">
                     <h1> {ele.url} </h1>
                   </div>
 
@@ -149,7 +149,7 @@ const Demo = () => {
                     Article <span className="text-blue-500">Summary</span>
                   </h1>
                 </div>
-                <div className="summeryText bg-gray-100 h-[20rem] sm:h-[23rem] md:h-full overflow-auto px-2 sm:px-4 py-2 md:px-5 md:py-3 shadow-md text-start rounded">
+                <div className="summeryText bg-gray-100 h-[23rem] sm:h-[26rem] md:h-full overflow-auto px-2 sm:px-4 py-2 md:px-5 md:py-3 shadow-md text-start rounded">
                   <p>{article.summary}</p>
                 </div>
               </div>
