@@ -25,12 +25,8 @@ const Demo = () => {
   }, []);
 
   const handleSubmit = async (e) => {
-    console.log("submit button clicked ");
-
+    console.log(isLoading);
     const { data } = await getSummary({ articleUrl: article.url });
-
-    console.log(data);
-    console.log("submit button clicked ");
 
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary };
@@ -43,8 +39,9 @@ const Demo = () => {
 
       localStorage.setItem("article", JSON.stringify(updatedArticle));
     }
-
-    console.log(article);
+    console.log(isLoading);
+    console.log(allArticles);
+    console.log(allArticles.length);
   };
 
   return (
@@ -93,7 +90,7 @@ const Demo = () => {
             <div className="historyWrapper  ">
               {/* history card starts  */}
 
-              {allArticles.map((ele, ind) => (
+              {allArticles.slice(0, 4).map((ele, ind) => (
                 <div
                   className="historyCard bg-gray-50 p-2 mb-2 rounded-md shadow flex justify-between items-center self-center cursor-pointer "
                   key={ind}
