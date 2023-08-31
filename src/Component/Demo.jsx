@@ -45,7 +45,7 @@ const Demo = () => {
   };
 
   return (
-    <div className="demoContainer  mb-4 ">
+    <div className="demoContainer  mb-8 ">
       <div className="demoWrapper  w-[90%] sm:w-[86%] m-auto ">
         {/* form section starts  */}
         <div className="formSection w-[95%] sm:w-[84%] md:w-[76%] lg:w-[68%] m-auto ">
@@ -149,7 +149,7 @@ const Demo = () => {
                     Article <span className="text-blue-500">Summary</span>
                   </h1>
                 </div>
-                <div className="summeryText bg-gray-100 h-[18rem] sm:h-[20rem] md:h-full overflow-auto px-2 sm:px-4 py-2 md:px-5 md:py-3 shadow-md text-start rounded">
+                <div className="summeryText bg-gray-100 h-[20rem] sm:h-[23rem] md:h-full overflow-auto px-2 sm:px-4 py-2 md:px-5 md:py-3 shadow-md text-start rounded">
                   <p>{article.summary}</p>
                 </div>
               </div>
