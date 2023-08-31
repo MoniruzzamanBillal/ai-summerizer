@@ -133,10 +133,12 @@ const Demo = () => {
         {/* article section starts  */}
         <div className="articleContainer mt-12">
           {isLoading ? (
-            <img src={loader} alt="" className="w-20 h-20 object-contain" />
+            <div className="loaderContainer text-center flex justify-center items-center self-center  ">
+              <img src={loader} alt="" className="w-20 h-20 object-contain" />
+            </div>
           ) : isError ? (
             <div>
-              <p className="bg-red-500 font-bold text-black text-center">
+              <p className="bg-red-100 font-bold text-black text-center">
                 Something went wrong
               </p>
               <br />
