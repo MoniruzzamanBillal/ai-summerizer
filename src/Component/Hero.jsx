@@ -48,13 +48,13 @@ const Hero = () => {
       <div className="heroContainer mb-6 sm:mb-9 md:mb-14 ">
         <div className="heroWrapper  w-[96%] sm:w-[90%] m-auto  ">
           {/*  */}
-          <div className="heroHeadingTop  w-full sm:w-[86%] lg:w-[80%] m-auto text-3xl sm:text-4xl md:text-5xl text-center font-bold mb-1 sm:mb-2 ">
+          <div className="heroHeadingTop  w-full sm:w-[86%] lg:w-[80%] m-auto text-3xl sm:text-4xl md:text-5xl text-center font-bold mb-2 sm:mb-3 ">
             <h1>Summerize Articles with</h1>
           </div>
           {/*  */}
 
           {/*  */}
-          <div className="heroBottomHeading orange_gradient  w-[80%] md:w-[70%] lg:w-[60%] m-auto text-2xl sm:text-3xl md:text-4xl text-center mb-1 sm:mb-2 md:mb-3 font-bold ">
+          <div className="heroBottomHeading orange_gradient  w-[80%] md:w-[70%] lg:w-[60%] m-auto text-2xl sm:text-3xl md:text-4xl text-center mb-2 sm:mb-3 md:mb-4 font-bold ">
             <h1>OpenAI GPT-4</h1>
           </div>
           {/*  */}
